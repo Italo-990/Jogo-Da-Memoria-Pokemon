@@ -3,7 +3,6 @@ class NewGame {
         this.grid = document.querySelector(`.${gridClass}`)
         this.dificultty = dificultty
         this.divLoading = document.querySelector(`.${divLoadingClass}`)
-        this.eventReveal = this.eventReveal.bind(this)
         this.divClick1 = ""
         this.divClick2 = ""
     }
