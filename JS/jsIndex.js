@@ -84,7 +84,6 @@ class NewGame {
         return divCardsCreate
     }
     async requestAPI(){
-        this.loadingGame()
         try{
             const data = [{}]
             for(let i = 0; i < this.dificultty ;i++){
