@@ -11,9 +11,6 @@ class NewGame {
     }
     loadingGame(){
         this.divLoading.classList.add('active')
-        setTimeout(()=>{
-            this.divLoading.classList.remove('active')
-        },3000)
     }
     addImagesAndName(data,divCardsCreate){
         const divCardsWithImageAndName = []
@@ -65,6 +62,9 @@ class NewGame {
             this.grid.appendChild(divAddImagesAndName[i])
             divAddImagesAndName[i].addEventListener('click', (e)=> this.eventReveal(e))
         }
+        setTimeout(()=>{
+            this.divLoading.classList.remove('active')
+        },1500)
     }
     createElement(tagName,className){
         const element = document.createElement(tagName)
@@ -84,6 +84,7 @@ class NewGame {
         return divCardsCreate
     }
     async requestAPI(){
+        this.loadingGame()
         try{
             const data = [{}]
             for(let i = 0; i < this.dificultty ;i++){
@@ -108,12 +109,9 @@ class NewGame {
         this.requestAPI()
     }
 }
-
 const jogo = new NewGame({
     gridClass: 'gridGame',
     dificultty: '5',
     divLoadingClass : 'loading'
 })
-
-jogo.loadingGame()
 jogo.init()
