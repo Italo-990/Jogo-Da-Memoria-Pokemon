@@ -40,7 +40,7 @@ class NewGame {
     }
     loadingNewGame(){
         setTimeout(()=>{
-            window.location = ".../index.html"
+            window.location = "./index.html"
         },1500)
     }
     winGameTest(){
