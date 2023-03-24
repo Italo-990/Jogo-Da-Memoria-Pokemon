@@ -40,7 +40,7 @@ class NewGame {
     }
     loadingNewGame(){
         setTimeout(()=>{
-            window.location = "../index.html"
+            window.location = ".../index.html"
         },1500)
     }
     winGameTest(){
@@ -55,7 +55,7 @@ class NewGame {
                 alert('Congratulations you win!')
                 this.loadingGame()
                 this.loadingNewGame()
-            },1200)
+            },1100)
         }
 
     }
