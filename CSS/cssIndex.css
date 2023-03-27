@@ -1,0 +1,82 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Poppins;
+        overflow: hidden;
+    }
+    
+    .pointer {
+        cursor: pointer;
+    }
+    
+    .button {
+        padding: 16px;
+        border-radius: 24px;
+        color: white;
+        width: 100px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .divMain {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: url("https://freepngimg.com/thumb/pokemon/37475-6-pikachu-transparent-image-thumb.png") no-repeat;
+        background-position: 50% 15%;
+        gap: 16px;
+    }
+    
+    p {
+        font-size: 3rem;
+        font-weight: bold;
+        font-style: italic;
+        color: #FFCC00;
+        margin-top: 5%;
+    }
+    
+    .easy {
+        background-color: #FB1B1B;
+        transition: background-color 0.2s ease-in-out;
+    }
+    
+    .easy:hover {
+        background-color: #e31919;
+    }
+    
+    .medium {
+        background-color: #4b4444;
+        transition: background-color 0.2s ease-in-out;
+    }
+    
+    .medium:hover {
+        background-color: #000000;
+    }
+    
+    .hard {
+        background-color: #DFDFDF;
+        color: #FB1B1B !important;
+        transition: background-color 0.2s ease-in-out;
+    }
+    
+    .hard:hover {
+        background-color: #c1c0c0;
+    }
+    
+    @media (max-width:1024px) {
+        p {
+            font-size: 32px;
+            margin-top: 25%;
+        }
+        .divMain {
+            background-position: 50% 5%;
+        }
+    }
