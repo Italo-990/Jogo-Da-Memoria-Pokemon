@@ -1,6 +1,6 @@
-const facil = document.querySelector('.facil')
-const medio = document.querySelector('.medio')
-const dificil = document.querySelector('.dificil')
+const facil = document.querySelector('.easy')
+const medio = document.querySelector('.medim')
+const dificil = document.querySelector('.hard')
 
 facil.addEventListener('click',()=>{
     localStorage.setItem('dificuldade',5)
