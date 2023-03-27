@@ -1,5 +1,5 @@
 const facil = document.querySelector('.easy')
-const medio = document.querySelector('.medim')
+const medio = document.querySelector('.medium')
 const dificil = document.querySelector('.hard')
 
 facil.addEventListener('click',()=>{
