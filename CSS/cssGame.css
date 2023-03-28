@@ -20,7 +20,7 @@ body{
 }
 .card{
     aspect-ratio: 3/4;
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     position: relative;
     border-radius: 5px;
@@ -79,5 +79,6 @@ body{
     body{
         background-size: 400px;
     }
-
+    .card{
+        width:100%;
 }
