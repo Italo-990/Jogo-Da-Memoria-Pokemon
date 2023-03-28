@@ -32,7 +32,7 @@
     background-color: rgb(235, 235, 235);
 }
 .back{
-    background-image: url('../images/background-card.jgp');
+    background-image: url('../images/background-card.jpg');
 }
 .reveal-card{
     transform: rotateY(180deg);
