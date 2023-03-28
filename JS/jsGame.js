@@ -8,7 +8,7 @@ class NewGame {
         this.divClick2 = ""
     }
     errorPromisse(){
-        alert('Error,please come back later!')
+        alert('Error,please come back later or TRY AGAIN!')
     }
     loadingGame(){
         this.divLoading.classList.add('active')
