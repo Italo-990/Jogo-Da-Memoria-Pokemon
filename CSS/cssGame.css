@@ -32,7 +32,7 @@
     background-color: rgb(235, 235, 235);
 }
 .back{
-    background-image: url('https://yt3.googleusercontent.com/pK5_z_dptxyLuGllTGH4voHjz6WNTv0vgysrHQtmK6X45fl8g_h1ytu1H-ir1ExvY8uph0MbQA=s900-c-k-c0x00ffffff-no-rj');
+    background-image: url('../images/background-card.jgp');
 }
 .reveal-card{
     transform: rotateY(180deg);
