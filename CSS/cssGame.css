@@ -26,6 +26,7 @@ body{
     border-radius: 5px;
     transition: all 1s;
     transform-style: preserve-3d;
+    cursor:pointer;
 }
 .face{
     position: absolute;
@@ -44,6 +45,7 @@ body{
 }
 .reveal-card{
     transform: rotateY(180deg);
+    cursor:auto;
 }
 @keyframes spin {
     to{
