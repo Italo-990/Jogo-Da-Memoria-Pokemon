@@ -6,21 +6,22 @@
 body{
     background: url('../images/background-body.png') no-repeat center;
     background-color: rgb(13, 13, 13);
+    overflow: hidden;
+    height: 100vh;
 }
 .gridGame{
     display: grid;
     width: 100%;
-    gap:16px;
     grid-template-columns: repeat(5, 1fr);
-    max-width: 550px;
-    margin: auto;
-    padding: 8px;
-    heigth:100vh;
-    overflow:hidden;
+    margin: 0 auto;
+    max-width: 525px;
+    height: 100vh;
+    padding: 16px;
 }
 .card{
     aspect-ratio: 3/4;
     width: 60%;
+    margin: 0 auto;
     position: relative;
     border-radius: 5px;
     transition: all 1s;
