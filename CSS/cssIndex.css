@@ -31,7 +31,7 @@
         justify-content: center;
         flex-direction: column;
         background: url("../images/pikachu.png") no-repeat;
-        background-position: 50% 10%;
+        background-position: 50% 8%;
         gap: 16px;
     }
     
