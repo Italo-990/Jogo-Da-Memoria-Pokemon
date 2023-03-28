@@ -15,8 +15,8 @@ body{
     grid-template-columns: repeat(5, 1fr);
     margin: 0 auto;
     max-width: 525px;
-    height: 100vh;
     padding: 16px;
+    gap:16px;
 }
 .card{
     aspect-ratio: 3/4;
