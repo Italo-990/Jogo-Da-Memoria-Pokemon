@@ -79,4 +79,7 @@
         .divMain {
             background-position: 50% 5%;
         }
+       .button{
+       cursor: auto;
+}
     }
