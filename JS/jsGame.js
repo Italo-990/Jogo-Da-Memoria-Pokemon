@@ -78,6 +78,7 @@ class NewGame {
         }
 }
     eventReveal(event){
+        if(event.type == 'touchstart') event.preventDefault()
         if(event.target.parentNode.classList.contains('win')){
             return
         }
@@ -95,6 +96,7 @@ class NewGame {
         for(let i = 0; i < (this.dificultty * 2); i++){
             this.grid.appendChild(divAddImagesAndName[i])
             divAddImagesAndName[i].addEventListener('click', (e)=> this.eventReveal(e))
+            divAddImagesAndName[i].addEventListener('touchstart', (e)=> this.eventReveal(e))
         }
         setTimeout(()=>{
             this.divLoading.classList.remove('active')
